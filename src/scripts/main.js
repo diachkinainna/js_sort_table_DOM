@@ -25,7 +25,7 @@ tableHead.addEventListener('click', (e) => {
       return person1[sortedName].localeCompare(person2[sortedName]);
     }
 
-    if (columnName.textContent === 'Age') {
+    if (sortedName === 'Age') {
       return parseInt(person1[sortedName]) - parseInt(person2[sortedName]);
     }
 
